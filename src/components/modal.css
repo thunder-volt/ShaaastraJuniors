@@ -1,0 +1,139 @@
+.register {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.more {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid red; */
+    padding: 17px;
+    overflow: scroll;
+    /* background-color: #8D6A97; */
+    border-radius: 30px;
+    background: rgba(141, 106, 151, 1);
+    min-width: 286px;
+
+}
+
+.heading {
+    color: #fff;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 100%; */
+
+}
+
+.cancel {
+    display: flex;
+    float: left;
+}
+
+.description {
+    width: 100%;
+    height: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description p {
+    padding: 10px;
+    text-justify: distribute;
+    color: #1F305A;
+}
+
+.date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.date div {}
+
+.date div h5 {
+    margin: 5px;
+}
+
+.ques-ans {
+    margin: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 38px;
+    line-height: 57px; */
+
+}
+
+.ques {
+    letter-spacing: 0.08em;
+
+    color: #9B21A4
+}
+
+.ans {
+    color: #fff;
+}
+
+.ques-ans p {
+    margin: 3px;
+    text-align: center;
+}
+
+.faq button {
+    margin: 20px;
+    padding: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 20px;
+    background-color: #A05BA5;
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.faq h2 {
+    color: #fff;
+}
+
+.date div {
+    color: #fff;
+}
+
+.date div p {
+    color: #1F305A;
+}
+
+.cancel button {
+    padding: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin: 2px;
+    background-color: #A05BA5;
+    border: 0;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 918;
+    color: #fff;
+    cursor: pointer;
+}
